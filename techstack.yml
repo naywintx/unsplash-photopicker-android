@@ -1,0 +1,195 @@
+repo_name: naywintx/unsplash-photopicker-android
+report_id: 07d7d56c7955a9641f5689b9c7910021
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-21T02:34:39+00:00'
+requested_by: ocollet
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android
+  detection_source: Repo Metadata
+- name: Kotlin
+  description: Statically typed Programming Language targeting JVM and JavaScript
+  website_url: https://kotlinlang.org/
+  open_source: true
+  hosted_saas: true
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3750/pCfEzr6L.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android
+  detection_source: Repo Metadata
+- name: RxJava
+  description: Reactive Extensions for the JVM
+  website_url: https://github.com/ReactiveX/RxJava
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2190/6407041.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android/blob/master/photopicker/build.gradle
+  detection_source: photopicker/build.gradle
+  last_updated_by: Guillaume G
+  last_updated_on: 2019-01-26 16:16:33.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android/blob/master/build.gradle
+  detection_source: build.gradle
+  last_updated_by: Olivier Collet
+  last_updated_on: 2019-04-23 20:34:44.000000000 Z
+- name: Moshi
+  website_url: https://github.com/square/moshi
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10862/82592.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android/blob/master/photopicker/build.gradle
+  detection_source: photopicker/build.gradle
+  last_updated_by: Guillaume G
+  last_updated_on: 2019-01-26 19:18:29.000000000 Z
+- name: Retrofit
+  description: A type-safe HTTP client for Android and Java
+  website_url: http://square.github.io/retrofit/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: API Tools
+  image_url: https://img.stackshare.io/service/2856/retrofit-logo.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android/blob/master/photopicker/build.gradle
+  detection_source: photopicker/build.gradle
+  last_updated_by: Guillaume G
+  last_updated_on: 2019-01-26 19:18:29.000000000 Z
+- name: com.squareup.retrofit2:retrofit
+  version: 2.4.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android/blob/master/photopicker/build.gradle
+  detection_source: photopicker/build.gradle
+  last_updated_by: Guillaume G
+  last_updated_on: 2019-01-26 22:02:00.000000000 Z
+  vulnerabilities:
+  - name: XML External Entity (XXE) vulnerability in Square Retrofit
+    cve_id: CVE-2018-1000844
+    cve_url: https://github.com/advisories/GHSA-j379-9jr9-w5cq
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 2.5.0
+  - name: Directory Traversal vulnerability in Square Retrofit
+    cve_id: CVE-2018-1000850
+    cve_url: https://github.com/advisories/GHSA-8p8g-f9vg-r7xr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 2.5.0
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android/blob/master/example/build.gradle
+  detection_source: example/build.gradle
+  last_updated_by: Guillaume G
+  last_updated_on: 2019-01-26 16:11:18.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: com.squareup.okhttp3:logging-interceptor
+  description: 'Null'
+  version: 3.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android/blob/master/photopicker/build.gradle
+  detection_source: photopicker/build.gradle
+  last_updated_by: Guillaume G
+  last_updated_on: 2019-01-26 22:02:00.000000000 Z
+- name: com.squareup.picasso:picasso
+  description: A powerful image downloading and caching library for Android
+  version: '2.71828'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android/blob/master/example/build.gradle
+  detection_source: example/build.gradle
+  last_updated_by: Guillaume G
+  last_updated_on: 2019-04-09 00:09:40.000000000 Z
+- name: com.squareup.retrofit2:adapter-rxjava2
+  version: 2.4.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android/blob/master/photopicker/build.gradle
+  detection_source: photopicker/build.gradle
+  last_updated_by: Guillaume G
+  last_updated_on: 2019-01-26 22:02:00.000000000 Z
+- name: com.squareup.retrofit2:converter-moshi
+  description: Type-safe HTTP client for Android and Java by Square, Inc
+  version: 2.4.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android/blob/master/photopicker/build.gradle
+  detection_source: photopicker/build.gradle
+  last_updated_by: Guillaume G
+  last_updated_on: 2019-01-26 22:02:00.000000000 Z
+- name: org.jetbrains.kotlin:kotlin-stdlib-jdk7
+  description: Kotlin Standard Library JDK 7 extension
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/naywintx/unsplash-photopicker-android/blob/master/example/build.gradle
+  detection_source: example/build.gradle
+  last_updated_by: Guillaume G
+  last_updated_on: 2019-01-26 16:11:18.000000000 Z
